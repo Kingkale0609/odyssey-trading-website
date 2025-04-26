@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odyssey Trading System</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d1117;
+      color: #f0f6fc;
+    }
+    header {
+      background: linear-gradient(to right, #0d1117, #003366);
+      padding: 20px;
+      text-align: center;
+      color: gold;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    nav {
+      background-color: #003366;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+    }
+    nav a {
+      color: gold;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: gold;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #003366;
+      color: gold;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #161b22;
+      color: #f0f6fc;
+      border: 1px solid gold;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: gold;
+      border: none;
+      padding: 10px 20px;
+      color: #0d1117;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid gold;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #003366;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  OTS - Odyssey Trading System
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact Us</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome to Odyssey Trading System</h2>
+  <p>Where your wealth journey begins. Combining expertise, trust, and technology to unlock your trading potential.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p><strong>Odyssey Trading System</strong> is a premier trading partnership, proudly based in Gauteng, Rondebult. 
+     Founded by <strong>[Your Name]</strong> (CEO) and <strong>Lebone More</strong> (CFO), our mission is to deliver trading excellence, gain the trust of investors and clients, and build lasting financial success.
+  </p>
+  <p><strong>Management Team:</strong> (Add here)</p>
+
+  <table>
+    <tr>
+      <th>Role</th>
+      <th>Name</th>
+    </tr>
+    <tr>
+      <td>Chief Executive Officer (CEO)</td>
+      <td>[Your Name]</td>
+    </tr>
+    <tr>
+      <td>Chief Financial Officer (CFO)</td>
+      <td>Lebone More</td>
+    </tr>
+    <!-- Add more team members here -->
+  </table>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <ul>
+    <li>Advanced Trading Systems Development</li>
+    <li>Private Investment Management</li>
+    <li>Automated Trading Algorithms</li>
+    <li>Market Trend Analysis</li>
+    <li>Investor Portfolio Strategy</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <h3>Subscribe to Our Newsletter</h3>
+  <form>
+    <input type="email" name="newsletter" placeholder="Your Email Address" required>
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2024 Odyssey Trading System. All rights reserved.
+</footer>
+
+</body>
+</html>
